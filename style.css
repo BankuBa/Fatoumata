@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+  font-family: "Roboto", sans-serif;;
 }
 
 /* header Area */
@@ -32,7 +34,7 @@
 /* Container */
 .container{
   width: 105rem;
-  padding: 0 3rem;
+  padding: 0 2rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -41,6 +43,7 @@
 .Web3 img{
   width: 70rem;
   margin-bottom: 2rem;
+  border-radius: 5px;
 }
 
 .web3Text h1 {
@@ -77,6 +80,7 @@ margin: 1rem 1.5rem;
   background: black;
   color: white;
   margin-left: 3rem;
+   border-radius: 5px;
 }
 .new h1{
   padding: 2rem 3rem;
@@ -115,6 +119,7 @@ margin-bottom: 3rem;
 
 .section2 img{
   width: 7rem;
+   border-radius: 5px;
 }
 .section2 h1{
   color: orange;
